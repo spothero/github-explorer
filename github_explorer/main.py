@@ -20,4 +20,6 @@ def run():
     repos = gp.public_repos()
 
     for repo in repos:
-        print(repo)
+        print(f'{repo.name}, {repo.created_at}, {repo.language}, \
+        {repo.archived}, {repo.subscribers_count}, {repo.open_issues_count}, \
+        {repo.forks_count}, {repo.stargazers_count}, {repo.watchers_count}')
