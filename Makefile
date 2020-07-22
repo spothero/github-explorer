@@ -1,3 +1,6 @@
+-include .env.$(or $(APP_ENV),development)
+export
+
 THIS_FILE := $(lastword $(MAKEFILE_LIST))
 
 .DEFAULT_GOAL := help
