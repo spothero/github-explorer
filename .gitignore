@@ -1,2 +1,3 @@
 github_explorer.egg-info/
 /**/__pycache__/
+.env.*
